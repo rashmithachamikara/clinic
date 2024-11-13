@@ -1,0 +1,25 @@
+/*
+ * Skin-id = 1
+ * Skin-name = Basic
+ */
+
+body {
+	background-image: url(../img/background_2.jpg);
+}
+
+
+/* Grids and layoutings */
+ .box-white {
+	border: 1px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: rgba(255, 255, 255, 0.9);
+}
+
+/* Header and footer */
+.header-customization{
+	background: rgba(255, 255, 255, 1);
+}
+
+.footer-customization{
+	background: rgba(255, 255, 255, 1);
+}

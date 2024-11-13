@@ -1,0 +1,39 @@
+/*
+ * Skin-id = 1
+ * Skin-name = Glasmorphism
+ */
+
+body {
+	background-image: url(../img/background_2.jpg);
+}
+
+table{
+	border-color: var(--bs-primary) !important;
+}
+
+.table-holder thead th{
+	background: rgba(255, 255, 255, 0.41);
+}
+
+.file-holder{
+	background-color: white;
+}
+
+.box-white {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.41);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Header and footer */
+.header-customization{
+	background: rgba(255, 255, 255, 1);
+}
+
+.footer-customization{
+	background: rgba(255, 255, 255, 1);
+}
